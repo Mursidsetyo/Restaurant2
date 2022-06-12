@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.png" />
+
+    <title>Cafee FTI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <a href="#mainContent" class="skip-link">Menuju ke konten</a>
+    <!-- <header> 
+      <nav class="navbar">
+        <div class="brand-title">Cafee FTI</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="#">Favorite</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/mursid-setyo-129180220/"
+                >About Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    </header>    -->
+    <header class="app-bar">
+      <div class="app-bar__menu">
+        <button id="hamburgerButton">☰</button>
+      </div>
+      <div class="app-bar__brand">
+        <h1>Cafee FTI</h1>
+      </div>
+      <nav id="navigationDrawer" class="app-bar__navigation">
+        <ul>
+          <li><a href="#/">Restaurant</a></li>
+          <li><a href="#/like">Favorite</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/mursid-setyo-129180220/"
+              >About Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- <main id="maincontent">
+        <div class="img-container">
+            <img src="./images/heros/hero-image_1.jpg" alt="">
+        </div>
+        <div id="list" class="list_res">
+         <h1 class="list_label">Explore Restaurant</h1>
+            <div class="lists">
+              <article class="list-item">
+                  <img class="list-item_thumbnail"
+                       src="https://restaurant-api.dicoding.dev/images/medium/41"
+                       alt="Gambar Ruangan dan Meja Makan"> 
+                  <div class="list-item_content">
+                      <p class="list-item_rating">Rating : 4.6</p>
+                      <h1 class="list-item_title">Medan</h1>
+                      <h1 class="list-item_title"><a href="http://surl.li/boajw" target="_blank">Bring Your Phone Cafe</a></h1>
+                      <p class="list-item_description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+                  </div>
+              </article>
+              <article class="list-item">
+                  <img class="list-item_thumbnail"
+                       src="https://restaurant-api.dicoding.dev/images/medium/45"
+                       alt="Gambar didalam Restaurant">
+                  <div class="list-item_content">
+                      <p class="list-item_rating">Rating : 4</p>
+                      <h1 class="list-item_title">Aceh</h1>
+                      <h1 class="list-item_title"><a href="http://surl.li/boakc" target="_blank">Gigitan Cepat</a></h1>
+                      <p class="list-item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                          explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi, fugit,
+                          minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                          doloremque impedit quod tempora tenetur totam vero.</p>
+                  </div>
+              </article>
+              
+              <article class="list-item">
+                  <img class="list-item_thumbnail"
+                       src="https://restaurant-api.dicoding.dev/images/medium/38"
+                       alt="Gambar Orang sedang Makan di Restaurant">
+                  <div class="list-item_content">
+                      <p class="list-item_rating">Rating : 4.7</p>
+                      <h1 class="list-item_title">Malang</h1>
+                      <h1 class="list-item_title"><a href="#">Ducky Duck</a></h1>
+                      <p class="list-item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                          explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi, fugit,
+                          minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                          doloremque impedit quod tempora tenetur totam vero.</p>
+                  </div>
+              </article>
+              <article class="list-item">
+                  <img class="list-item_thumbnail"
+                       src="https://restaurant-api.dicoding.dev/images/medium/07"
+                       alt="Gambar Depan Restaurant">
+                  <div class="list-item_content">
+                      <p class="list-item_rating">Rating : 4.6</p>
+                      <h1 class="list-item_title">Bali</h1>
+                      <h1 class="list-item_title"><a href="#">Run The Gun</a></h1>
+                      <p class="list-item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                          explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi, fugit,
+                          minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                          doloremque impedit quod tempora tenetur totam vero.</p>
+                  </div>
+              </article>
+              
+              <article class="list-item">
+                  <img class="list-item_thumbnail"
+                       src="https://restaurant-api.dicoding.dev/images/medium/40"
+                       alt="Gambar Restaurant di Dalam Gang">
+                  <div class="list-item_content">
+                      <p class="list-item_rating">Rating : 3.8</p>
+                      <h1 class="list-item_title">Bali</h1>
+                      <h1 class="list-item_title"><a href="#">Kafein</a></h1>
+                      <p class="list-item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                          explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi, fugit,
+                          minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                          doloremque impedit quod tempora tenetur totam vero.</p>
+                  </div>
+              </article>
+              <article class="list-item">
+                  <img class="list-item_thumbnail"
+                       src="https://restaurant-api.dicoding.dev/images/medium/29"
+                       alt="Gambar di Dalam Restaurant">
+                  <div class="list-item_content">
+                      <p class="list-item_rating">Rating : 4.8</p>
+                      <h1 class="list-item_title">Ternate</h1>
+                      <h1 class="list-item_title"><a href="#">Pangsit Express</a></h1>
+                      <p class="list-item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                          explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi, fugit,
+                          minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                          doloremque impedit quod tempora tenetur totam vero.</p>
+                  </div>
+              </article>
+              <article class="list-item">
+                  <img class="list-item_thumbnail"
+                       src="https://restaurant-api.dicoding.dev/images/medium/08"
+                       alt="Gambar Pelayang Menyajikan Makanan">
+                  <div class="list-item_content">
+                      <p class="list-item_rating">Rating : 4.6</p>
+                      <h1 class="list-item_title">Malang</h1>
+                      <h1 class="list-item_title"><a href="#">Makan mudah</a></h1>
+                      <p class="list-item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                          explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi, fugit,
+                          minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                          doloremque impedit quod tempora tenetur totam vero.</p>
+                  </div>
+              </article>
+              <article class="list-item">
+                  <img class="list-item_thumbnail"
+                       src="https://restaurant-api.dicoding.dev/images/medium/32"
+                       alt="Gambar di Dalam Restaurant">
+                  <div class="list-item_content">
+                      <p class="list-item_rating">Rating : 3.6</p>
+                      <h1 class="list-item_title">Surabaya</h1>
+                      <h1 class="list-item_title"><a href="#">Saya Suka</a></h1>
+                      <p class="list-item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                          explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi, fugit,
+                          minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                          doloremque impedit quod tempora tenetur totam vero.</p>
+                  </div>
+              </article>
+              <article class="list-item">
+                  <img class="list-item_thumbnail"
+                       src="https://restaurant-api.dicoding.dev/images/medium/04"
+                       alt="Gambar Restaurant Ramai Pengunjung">
+                  <div class="list-item_content">
+                      <p class="list-item_rating">Rating : 3.9</p>
+                      <h1 class="list-item_title">Malang</h1>
+                      <h1 class="list-item_title"><a href="#">Fairy Cafe</a></h1>
+                      <p class="list-item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Aspernatur atque autem culpa laborum odio similique voluptas. A ab animi ducimus earum
+                          explicabo hic molestias repudiandae sunt. Consectetur consequuntur dolorum excepturi, fugit,
+                          minus nemo non quae quaerat quod recusandae reprehenderit totam, unde. Aliquid autem
+                          doloremque impedit quod tempora tenetur totam vero.</p>
+                    </div>
+                </article>
+            </div>
+            </div>
+        </article>
+     </section>
+    </main> -->
+
+    <main id="mainContent" tabindex="0">
+      <div class="img-container">
+        <img src="./images/heros/hero-image_1.jpg" alt="" />
+      </div>
+    </main>
+
+    <footer>
+      <p id="footer" class="footer-p">Copyright &copy; 2022, Cafee FTI</p>
+    </footer>
+  </body>
+</html>
